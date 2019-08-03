@@ -6,7 +6,7 @@ double function(double x)
     return x*log(x) -1.2;
 }
 double c;
-double e = 0.00005
+double e = 0.00005;
 void bisection(double a, double b)
 {
     if(function(a)*function(b)>=0)
