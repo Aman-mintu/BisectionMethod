@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 
 double function(double x)
