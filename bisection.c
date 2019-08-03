@@ -42,7 +42,6 @@ int main()
     a = 2;
     b = 3;
     printf("The function used is x^3- x - 11");
-    printf("a : ",a);
-    printf("b : ",b);
+    bisection(a,b);
     printf("The accurate root is :",c);
 }
