@@ -6,7 +6,7 @@ double function(double x)
     return x*x*x - x -11;
 }
 double c;
-double e = 0.00005
+double e = 0.00005;
 void bisection(double a, double b)
 {
     if(function(a)*function(b)>=0)
@@ -16,10 +16,10 @@ void bisection(double a, double b)
     }
     while ((b-a) > e)
     {
-        c=(a+b)/2
+        c=(a+b)/2;
         if(function(c)==0.0)
         {
-            printf("Root is %lf",c)
+            printf("Root is %lf",c);
             break;
         }
         else if(function(c)*function(a)<0)
